@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def about():  # put application's code here
+def hello():  # put application's code here
     return 'Hello World! from Ryan Hoang! I am adding my first code change.'
 @app.route('/about')
 def about():
